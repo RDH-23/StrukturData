@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Struktur Data - Restu Dwi Haqiqi</title>
+    <!-- Tailwind CSS untuk styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome untuk Icon -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        .card-hover { transition: transform 0.2s ease, box-shadow 0.2s ease; }
+        .card-hover:hover { transform: translateY(-5px); box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <!-- Header / Identitas Utama -->
+    <header class="bg-gradient-to-r from-blue-700 to-indigo-800 text-white pt-16 pb-12 px-4 shadow-lg text-center">
+        <div class="max-w-4xl mx-auto">
+            <div class="w-24 h-24 bg-white rounded-full flex items-center justify-center mx-auto mb-4 shadow-md text-blue-700 text-4xl">
+                <i class="fas fa-user-graduate"></i>
+            </div>
+            <h1 class="text-4xl md:text-5xl font-bold mb-2">Restu Dwi Haqiqi</h1>
+            <p class="text-xl md:text-2xl text-blue-200 font-semibold mb-4">NPM: 250411100097</p>
+            <p class="text-md md:text-lg max-w-2xl mx-auto opacity-90">
+                Selamat datang di repositori pembelajaran Struktur Data Semester 2. Website ini berisi kumpulan catatan, implementasi kode (Python), dan evaluasi tugas selama perkuliahan.
+            </p>
+            
+            <!-- Link ke notebook profil utama -->
+            <div class="mt-8">
+                <a href="#" class="bg-white text-blue-800 font-bold py-3 px-6 rounded-full shadow-lg hover:bg-blue-50 transition duration-300">
+                    <i class="fas fa-book-open mr-2"></i> Baca Catatan Utama
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Konten Utama (Daftar Materi) -->
+    <main class="max-w-6xl mx-auto px-4 py-12">
+        <h2 class="text-3xl font-bold text-center text-gray-800 mb-10 border-b-2 border-blue-500 pb-4 inline-block w-full">Daftar Materi & Implementasi Algoritma</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            
+            <!-- Materi 2 -->
+            <div class="bg-white rounded-xl shadow-md p-6 border-t-4 border-blue-500 card-hover flex flex-col">
+                <div class="flex items-center mb-4 text-blue-600">
+                    <i class="fas fa-layer-group text-2xl mr-3"></i>
+                    <h3 class="text-xl font-bold">Materi 2</h3>
+                </div>
+                <p class="text-gray-600 text-sm mb-4 font-semibold border-b pb-2">Stacks, Queues, Deques</p>
+                <ul class="space-y-2 flex-grow">
+                    <li><a href="StrukturDataHTML/Materi-2-Stacks-Queues-Deques/Stacks.html" class="text-blue-600 hover:text-blue-800 flex items-center"><i class="fas fa-code mr-2 text-xs"></i> Stacks</a></li>
+                    <li><a href="StrukturDataHTML/Materi-2-Stacks-Queues-Deques/Queues.html" class="text-blue-600 hover:text-blue-800 flex items-center"><i class="fas fa-code mr-2 text-xs"></i> Queues</a></li>
+                    <li><a href="StrukturDataHTML/Materi-2-Stacks-Queues-Deques/Deques.html" class="text-blue-600 hover:text-blue-800 flex items-center"><i class="fas fa-code mr-2 text-xs"></i> Deques</a></li>
+                </ul>
+            </div>
+
+            <!-- Materi 3 -->
+            <div class="bg-white rounded-xl shadow-md p-6 border-t-4 border-green-500 card-hover flex flex-col">
+                <div class="flex items-center mb-4 text-green-600">
+                    <i class="fas fa-sort-amount-down text-2xl mr-3"></i>
+                    <h3 class="text-xl font-bold">Materi 3</h3>
+                </div>
+                <p class="text-gray-600 text-sm mb-4 font-semibold border-b pb-2">Algoritma Sorting Dasar</p>
+                <ul class="space-y-2 flex-grow">
+                    <li><a href="StrukturDataHTML/Materi-3-BubbleSort-SelectionSort-InsertionSort/BubbleSort.html" class="text-blue-600 hover:text-blue-800 flex items-center"><i class="fas fa-code mr-2 text-xs"></i> Bubble Sort</a></li>
+                    <li><a href="StrukturDataHTML/Materi-3-BubbleSort-SelectionSort-InsertionSort/SelectionSort.html" class="text-blue-600 hover:text-blue-800 flex items-center"><i class="fas fa-code mr-2 text-xs"></i> Selection Sort</a></li>
+                    <li><a href="StrukturDataHTML/Materi-3-BubbleSort-SelectionSort-InsertionSort/InsertionSort.html" class="text-blue-600 hover:text-blue-800 flex items-center"><i class="fas fa-code mr-2 text-xs"></i> Insertion Sort</a></li>
+                </ul>
+            </div>
+
+            <!-- Materi 4 -->
+            <div class="bg-white rounded-xl shadow-md p-6 border-t-4 border-purple-500 card-hover flex flex-col">
+                <div class="flex items-center mb-4 text-purple-600">
+                    <i class="fas fa-redo-alt text-2xl mr-3"></i>
+                    <h3 class="text-xl font-bold">Materi 4</h3>
+                </div>
+                <p class="text-gray-600 text-sm mb-4 font-semibold border-b pb-2">Fungsi Rekursif</p>
+                <ul class="space-y-2 flex-grow">
+                    <li><a href="StrukturDataHTML/Materi-4-Rekursif/Rekursif.html" class="text-blue-600 hover:text-blue-800 flex items-center"><i class="fas fa-code mr-2 text-xs"></i> Implementasi Rekursif</a></li>
+                </ul>
+            </div>
+
+            <!-- Materi 5 -->
+            <div class="bg-white rounded-xl shadow-md p-6 border-t-4 border-yellow-500 card-hover flex flex-col">
+                <div class="flex items-center mb-4 text-yellow-600">
+                    <i class="fas fa-search text-2xl mr-3"></i>
+                    <h3 class="text-xl font-bold">Materi 5</h3>
+                </div>
+                <p class="text-gray-600 text-sm mb-4 font-semibold border-b pb-2">Algoritma Searching</p>
+                <ul class="space-y-2 flex-grow">
+                    <li><a href="StrukturDataHTML/Materi-5-Searching/SequentialSearch.html" class="text-blue-600 hover:text-blue-800 flex items-center"><i class="fas fa-code mr-2 text-xs"></i> Sequential Search</a></li>
+                    <li><a href="StrukturDataHTML/Materi-5-Searching/BinarySearch.html" class="text-blue-600 hover:text-blue-800 flex items-center"><i class="fas fa-code mr-2 text-xs"></i> Binary Search</a></li>
+                    <li><a href="StrukturDataHTML/Materi-5-Searching/HashingSearch.html" class="text-blue-600 hover:text-blue-800 flex items-center"><i class="fas fa-code mr-2 text-xs"></i> Hashing Search</a></li>
+                </ul>
+            </div>
+
+            <!-- Materi 6 -->
+            <div class="bg-white rounded-xl shadow-md p-6 border-t-4 border-red-500 card-hover flex flex-col">
+                <div class="flex items-center mb-4 text-red-600">
+                    <i class="fas fa-sort-numeric-up-alt text-2xl mr-3"></i>
+                    <h3 class="text-xl font-bold">Materi 6</h3>
+                </div>
+                <p class="text-gray-600 text-sm mb-4 font-semibold border-b pb-2">Advanced Sorting</p>
+                <ul class="space-y-2 flex-grow">
+                    <li><a href="StrukturDataHTML/Materi-6-MergeSort-QuickSort-CountingSort/MergeSort.html" class="text-blue-600 hover:text-blue-800 flex items-center"><i class="fas fa-code mr-2 text-xs"></i> Merge Sort</a></li>
+                    <li><a href="StrukturDataHTML/Materi-6-MergeSort-QuickSort-CountingSort/QuickSort.html" class="text-blue-600 hover:text-blue-800 flex items-center"><i class="fas fa-code mr-2 text-xs"></i> Quick Sort</a></li>
+                    <li><a href="Materi-6-MergeSort-QuickSort-CountingSort/CountingSort.html" class="text-blue-600 hover:text-blue-800 flex items-center"><i class="fas fa-code mr-2 text-xs"></i> Counting Sort</a></li>
+                </ul>
+            </div>
+
+            <!-- Materi 7 -->
+            <div class="bg-white rounded-xl shadow-md p-6 border-t-4 border-teal-500 card-hover flex flex-col">
+                <div class="flex items-center mb-4 text-teal-600">
+                    <i class="fas fa-project-diagram text-2xl mr-3"></i>
+                    <h3 class="text-xl font-bold">Materi 7</h3>
+                </div>
+                <p class="text-gray-600 text-sm mb-4 font-semibold border-b pb-2">Linked List & OOP</p>
+                <ul class="space-y-2 flex-grow">
+                    <li><a href="Materi-7-LinkedList/PengenalanClassObject.html" class="text-blue-600 hover:text-blue-800 flex items-center"><i class="fas fa-code mr-2 text-xs"></i> Pengenalan Class & Object</a></li>
+                    <li><a href="Materi-7-LinkedList/LinkedList.html" class="text-blue-600 hover:text-blue-800 flex items-center"><i class="fas fa-code mr-2 text-xs"></i> Linked List Implementation</a></li>
+                </ul>
+            </div>
+
+             <!-- Materi 8 -->
+             <div class="bg-white rounded-xl shadow-md p-6 border-t-4 border-indigo-500 card-hover flex flex-col">
+                <div class="flex items-center mb-4 text-indigo-600">
+                    <i class="fas fa-tree text-2xl mr-3"></i>
+                    <h3 class="text-xl font-bold">Materi 8</h3>
+                </div>
+                <p class="text-gray-600 text-sm mb-4 font-semibold border-b pb-2">Binary Tree</p>
+                <ul class="space-y-2 flex-grow">
+                    <li><a href="Materi-8-BinaryTree/BinaryTree.html" class="text-blue-600 hover:text-blue-800 flex items-center"><i class="fas fa-code mr-2 text-xs"></i> Implementasi Binary Tree</a></li>
+                </ul>
+            </div>
+             <!-- Placeholder Materi 9 (Akan aktif nanti) -->
+             <div class="bg-gray-100 rounded-xl shadow-sm p-6 border-t-4 border-gray-400 opacity-70 flex flex-col">
+                <div class="flex items-center mb-4 text-gray-500">
+                    <i class="fas fa-lock text-2xl mr-3"></i>
+                    <h3 class="text-xl font-bold">Materi 9</h3>
+                </div>
+                <p class="text-gray-500 text-sm mb-4 font-semibold border-b border-gray-300 pb-2">Akan Datang...</p>
+                 <ul class="space-y-2 flex-grow">
+                    <li><span class="text-gray-400 flex items-center"><i class="fas fa-clock mr-2 text-xs"></i> Materi sedang disiapkan</span></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- Section Tugas & Evaluasi -->
+        <h2 class="text-3xl font-bold text-center text-gray-800 mt-16 mb-10 border-b-2 border-indigo-500 pb-4 inline-block w-full">Tugas & Evaluasi</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+            <!-- Tugas -->
+            <div class="bg-indigo-50 rounded-xl shadow p-6 border border-indigo-100 card-hover">
+                <h3 class="text-xl font-bold text-indigo-800 mb-3"><i class="fas fa-tasks mr-2"></i> Tugas Praktikum</h3>
+                <ul class="space-y-2">
+                    <li><a href="Tugas/250411100097-Tugas01.html" class="text-indigo-600 hover:text-indigo-900 font-medium flex items-center"><i class="fas fa-file-alt mr-2"></i> Tugas 01</a></li>
+                    <li><a href="Tugas/250411100097-Tugas02.html" class="text-indigo-600 hover:text-indigo-900 font-medium flex items-center"><i class="fas fa-file-alt mr-2"></i> Tugas 02</a></li>
+                </ul>
+            </div>
+
+            <!-- UTS -->
+            <div class="bg-orange-50 rounded-xl shadow p-6 border border-orange-100 card-hover">
+                <h3 class="text-xl font-bold text-orange-800 mb-3"><i class="fas fa-laptop-code mr-2"></i> Ujian Tengah Semester</h3>
+                <ul class="space-y-2">
+                    <li><a href="UTS/250411100097.html" class="text-orange-600 hover:text-orange-900 font-medium flex items-center"><i class="fas fa-star mr-2"></i> Evaluasi UTS (250411100097)</a></li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-gray-400 py-8 text-center mt-12">
+        <p>&copy; 2024 Restu Dwi Haqiqi. Repositori Struktur Data.</p>
+        <p class="text-sm mt-2">Dibuat menggunakan HTML & Tailwind CSS untuk GitHub Pages.</p>
+    </footer>
+
+</body>
+</html>
