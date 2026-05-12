@@ -9,7 +9,7 @@ Selamat datang! Repositori ini berfungsi sebagai dokumentasi digital untuk mata 
 ## 👤 Informasi Mahasiswa
 
 * **Nama:** Restu Dwi Haqiqi
-* **NPM:** 250411100097
+* **NIM:** 250411100097
 * **Program Studi:** Teknik Informatika
 
 ---
@@ -35,7 +35,7 @@ Materi telah dikelompokkan ke dalam folder-folder berikut agar lebih teratur:
 * **Binary Tree:** Implementasi struktur data pohon biner.
 
 ### 4. Evaluasi & Tugas
-* **Tugas Praktikum:** Kumpulan tugas mingguan (Tugas 01 & 02).
+* **Tugas Kelas:** Kumpulan tugas mingguan (Tugas 01 & 02).
 * **UTS:** Dokumentasi pengerjaan Ujian Tengah Semester.
 
 ---
