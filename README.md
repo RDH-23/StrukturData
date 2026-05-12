@@ -46,7 +46,7 @@ Jika Anda ingin menjalankan atau memodifikasi file `.ipynb` di komputer Anda, ik
 
 1.  **Clone Repositori:**
     ```bash
-    git clone [https://github.com/RDH-23/StrukturData](https://github.com/RDH-23/StrukturData)
+    git clone https://github.com/RDH-23/StrukturData
     ```
 
 2.  **Persiapkan Lingkungan:**
