@@ -2,7 +2,7 @@
 
 Selamat datang! Repositori ini berfungsi sebagai dokumentasi digital untuk mata kuliah **Struktur Data** pada semester 2. Di dalamnya terdapat implementasi kode Python, penjelasan konsep melalui Jupyter Notebook, serta arsip tugas dan ujian.
 
-> 🌐 **Akses Website Interaktif:** > [https://rdh-23.github.io/Catatan-Materi-Struktur-Data_Semester-2/](https://rdh-23.github.io/Catatan-Materi-Struktur-Data_Semester-2/)
+> 🌐 **Akses Website Interaktif:** > [https://rdh-23.github.io/StrukturData/](https://rdh-23.github.io/StrukturData/)
 
 ---
 
@@ -46,7 +46,7 @@ Jika Anda ingin menjalankan atau memodifikasi file `.ipynb` di komputer Anda, ik
 
 1.  **Clone Repositori:**
     ```bash
-    git clone [https://github.com/rdh-23/Catatan-Materi-Struktur-Data_Semester-2.git](https://github.com/rdh-23/Catatan-Materi-Struktur-Data_Semester-2.git)
+    git clone [https://github.com/RDH-23/StrukturData](https://github.com/RDH-23/StrukturData)
     ```
 
 2.  **Persiapkan Lingkungan:**
