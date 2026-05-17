@@ -19,9 +19,11 @@
     <!-- Header / Identitas Utama -->
     <header class="bg-gradient-to-r from-blue-700 to-indigo-800 text-white pt-16 pb-12 px-4 shadow-lg text-center">
         <div class="max-w-4xl mx-auto">
-            <div class="w-24 h-24 bg-white rounded-full flex items-center justify-center mx-auto mb-4 shadow-md text-blue-700 text-4xl">
-                <i class="fas fa-user-graduate"></i>
+            <div class="w-32 h-32 mx-auto mb-4 relative">
+                <img src="assets/pas foto bg biru.png" alt="Foto Restu Dwi Haqiqi" onerror="this.src='https://via.placeholder.com/150?text=Foto'; this.onerror=null;"
+                class="w-full h-full object-cover rounded-full border-4 border-white shadow-xl bg-white">
             </div>
+
             <h1 class="text-4xl md:text-5xl font-bold mb-2">Restu Dwi Haqiqi</h1>
             <p class="text-xl md:text-2xl text-blue-200 font-semibold mb-4">NIM: 250411100097</p>
             <p class="text-md md:text-lg max-w-2xl mx-auto opacity-90">
@@ -30,8 +32,11 @@
             
             <!-- Link ke notebook profil utama -->
             <div class="mt-8">
-                <a href="#" class="bg-white text-blue-800 font-bold py-3 px-6 rounded-full shadow-lg hover:bg-blue-50 transition duration-300">
+                <a href="./StrukturDataHTML/250411100097-RestuDwiHaqiqi.html" class="bg-white text-blue-800 font-bold py-3 px-6 rounded-full shadow-lg hover:bg-blue-50 transition duration-300">
                     <i class="fas fa-book-open mr-2"></i> Baca Catatan Utama
+                </a>
+                <a href="#" class="bg-blue-600 text-white border-2 border-white font-bold py-3 px-6 rounded-full shadow-lg hover:bg-blue-700 transition duration-300 inline-block">
+                    <i class="fas fa-book-open mr-2"></i> Baca Catatan Praktikum
                 </a>
             </div>
         </div>
@@ -149,8 +154,30 @@
                     <li><a href="Materi-9-Graph/Graph.html" class="text-blue-600 hover:text-blue-800 flex items-center transition-colors"><i class="fas fa-code mr-2 text-xs"></i>  Graph Traversal</a></li>
                 </ul>
             </div>
-
         </div>
+
+
+        
+        <!-- Tugas Praktikum -->
+        <br>
+        <h2 class="text-3xl font-bold text-center text-gray-800 mb-10 border-b-2 border-indigo-500 pb-4 inline-block w-full">Tugas</h2>
+            
+        <div class="max-w-4xl mx-auto bg-indigo-50 rounded-xl shadow p-6 border border-indigo-100 card-hover">
+            <h3 class="text-xl font-bold text-indigo-800 mb-6 text-center"><i class="fas fa-tasks mr-2"></i> Kumpulan Modul Tugas Praktikum</h3>
+            
+            <!-- Menggunakan Grid 4 kolom (desktop), 2 kolom (tablet), 1 kolom (HP) agar 8 tugas tertata sangat rapi -->
+            <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+                <li><a href="#" class="text-indigo-700 hover:text-indigo-900 font-bold flex items-center bg-white p-3 rounded-lg shadow-sm border border-indigo-100 transition-all hover:bg-indigo-100 justify-center"><i class="fas fa-file-alt mr-2 text-indigo-400"></i> Tugas 01</a></li>
+                <li><a href="#" class="text-indigo-700 hover:text-indigo-900 font-bold flex items-center bg-white p-3 rounded-lg shadow-sm border border-indigo-100 transition-all hover:bg-indigo-100 justify-center"><i class="fas fa-file-alt mr-2 text-indigo-400"></i> Tugas 02</a></li>
+                <li><a href="#" class="text-indigo-700 hover:text-indigo-900 font-bold flex items-center bg-white p-3 rounded-lg shadow-sm border border-indigo-100 transition-all hover:bg-indigo-100 justify-center"><i class="fas fa-file-alt mr-2 text-indigo-400"></i> Tugas 03</a></li>
+                <li><a href="#" class="text-indigo-700 hover:text-indigo-900 font-bold flex items-center bg-white p-3 rounded-lg shadow-sm border border-indigo-100 transition-all hover:bg-indigo-100 justify-center"><i class="fas fa-file-alt mr-2 text-indigo-400"></i> Tugas 04</a></li>
+                <li><a href="#" class="text-indigo-700 hover:text-indigo-900 font-bold flex items-center bg-white p-3 rounded-lg shadow-sm border border-indigo-100 transition-all hover:bg-indigo-100 justify-center"><i class="fas fa-file-alt mr-2 text-indigo-400"></i> Tugas 05</a></li>
+                <li><a href="#" class="text-indigo-700 hover:text-indigo-900 font-bold flex items-center bg-white p-3 rounded-lg shadow-sm border border-indigo-100 transition-all hover:bg-indigo-100 justify-center"><i class="fas fa-file-alt mr-2 text-indigo-400"></i> Tugas 06</a></li>
+                <li><a href="#" class="text-indigo-700 hover:text-indigo-900 font-bold flex items-center bg-white p-3 rounded-lg shadow-sm border border-indigo-100 transition-all hover:bg-indigo-100 justify-center"><i class="fas fa-file-alt mr-2 text-indigo-400"></i> Tugas 07</a></li>
+                <li><a href="#" class="text-indigo-700 hover:text-indigo-900 font-bold flex items-center bg-white p-3 rounded-lg shadow-sm border border-indigo-100 transition-all hover:bg-indigo-100 justify-center"><i class="fas fa-file-alt mr-2 text-indigo-400"></i> Tugas 08</a></li>
+            </ul>
+        </div>
+
 
         <!-- Section Tugas & Evaluasi -->
         <h2 class="text-3xl font-bold text-center text-gray-800 mt-16 mb-10 border-b-2 border-indigo-500 pb-4 inline-block w-full">Tugas & Evaluasi</h2>
@@ -162,6 +189,7 @@
                 <ul class="space-y-2">
                     <li><a href="StrukturDataHTML/Tugas/250411100097-Tugas01.html" class="text-indigo-600 hover:text-indigo-900 font-medium flex items-center"><i class="fas fa-file-alt mr-2"></i> Tugas 01</a></li>
                     <li><a href="StrukturDataHTML/Tugas/250411100097-Tugas02.html" class="text-indigo-600 hover:text-indigo-900 font-medium flex items-center"><i class="fas fa-file-alt mr-2"></i> Tugas 02</a></li>
+                    <li><a href="StrukturDataHTML/Tugas/250411100097-Tugas03.html" class="text-indigo-600 hover:text-indigo-900 font-medium flex items-center"><i class="fas fa-file-alt mr-2"></i> Tugas 03</a></li>
                 </ul>
             </div>
 
